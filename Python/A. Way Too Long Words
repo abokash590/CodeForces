@@ -1,0 +1,8 @@
+x = int(input(""))
+while x:
+    y = (input(""))
+    if len(y) <= 10:
+        print(y)
+    else:
+        print(y[0] + str(len(y) - 2) + y[-1])
+    x= x-1
