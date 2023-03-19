@@ -1,8 +1,0 @@
-    import math
-    n = int(input())
-    value = math.ceil(n/5)
-     
-    if n>5:
-        print(value)
-    else:
-        print(1)
